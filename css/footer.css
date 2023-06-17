@@ -1,0 +1,36 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+  gap: 5px;
+}
+
+footer .board-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  width: 40px;
+  height: 56px;
+  margin-top: 2px;
+  background-color: var(--footer-block);
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#enter-btn {
+  width: 61px;
+  font-size: 12px;
+}
+
+#del-img {
+  width: 61px;
+}
+
+#del-img img {
+  width: 25px;
+  height: 25px;
+}
