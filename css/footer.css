@@ -21,6 +21,12 @@ footer .board-block {
   cursor: pointer;
 }
 
+footer .board-block:hover {
+  background-color: whitesmoke;
+  scale: 1.2;
+  transition: all 0.3s ease-in-out;
+}
+
 #enter-btn {
   width: 61px;
   font-size: 12px;
